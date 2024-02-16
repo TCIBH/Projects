@@ -5,20 +5,11 @@
 }
 
 .container {
-    /* align-items: center;
-    text-align: center; */
     margin: auto;
     margin-top:40px;
     box-sizing: border-box;
     height: 80%;
     width: 50%;
-    /* background-color: cyan; */
-    
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* margin: 8px; */
-    /* padding: 5px; */
-
 }
 
 .calculator {
@@ -31,7 +22,6 @@
     background-color:whitesmoke;
     width: 90%;
     height: 100%;
-    /* padding: 10px; */
 }
 
 .display {
@@ -69,12 +59,11 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    /* padding: 10px; */
     margin-top: 5px;
 }
 
 .btnrow .btn {
-    width: calc(25% - 16px); /* Adjusted button width with margin */
+    width: calc(25% - 16px);
     height: 60px;
     margin: 8px;
     background-color: #fff;
@@ -93,7 +82,6 @@
     background-color: #fffffff2;
 }
 
-/* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -116,7 +104,7 @@
     }
 
     .btnBox .mat-raised-button {
-        width: calc(33.33% - 12px); /* Adjusted button width for smaller screens */
+        width: calc(33.33% - 12px); 
         height: 50px;
         font-size: 20px;
     }
